@@ -1,0 +1,14 @@
+[
+  {
+    "name": "cart",
+    "path": "/cart",
+    "component": "C:\\\\nuxt\\\\opaymenu-paketix\\\\pages\\\\cart.vue",
+    "chunkName": "pages/cart"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\nuxt\\\\opaymenu-paketix\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]

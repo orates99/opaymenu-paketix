@@ -1,0 +1,56 @@
+{
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "LazyLogo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "VuetifyLogo": {
+    "description": "Auto imported from components/VuetifyLogo.vue"
+  },
+  "LazyVuetifyLogo": {
+    "description": "Auto imported from components/VuetifyLogo.vue"
+  },
+  "Cartitem": {
+    "description": "Auto imported from components/cart/cartitem.vue"
+  },
+  "LazyCartitem": {
+    "description": "Auto imported from components/cart/cartitem.vue"
+  },
+  "Carts": {
+    "description": "Auto imported from components/cart/carts.vue"
+  },
+  "LazyCarts": {
+    "description": "Auto imported from components/cart/carts.vue"
+  },
+  "AddCart": {
+    "description": "Auto imported from components/dialogs/addCart.vue"
+  },
+  "LazyAddCart": {
+    "description": "Auto imported from components/dialogs/addCart.vue"
+  },
+  "Categories": {
+    "description": "Auto imported from components/menu/categories.vue"
+  },
+  "LazyCategories": {
+    "description": "Auto imported from components/menu/categories.vue"
+  },
+  "Product": {
+    "description": "Auto imported from components/menu/product.vue"
+  },
+  "LazyProduct": {
+    "description": "Auto imported from components/menu/product.vue"
+  },
+  "Products": {
+    "description": "Auto imported from components/menu/products.vue"
+  },
+  "LazyProducts": {
+    "description": "Auto imported from components/menu/products.vue"
+  },
+  "Snackbar": {
+    "description": "Auto imported from components/Shared/Snackbar.vue"
+  },
+  "LazySnackbar": {
+    "description": "Auto imported from components/Shared/Snackbar.vue"
+  }
+}
