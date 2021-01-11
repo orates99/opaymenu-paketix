@@ -1,5 +1,5 @@
 const express = require("express")
-const mysql = require("mysql")
+/* const mysql = require("mysql") */
 const session = require("express-session")
 
 const app = express()
@@ -7,7 +7,7 @@ app.use(session({
   secret: "p4ketix"
 }))
 
-var connection = mysql.createConnection({
+/* var connection = mysql.createConnection({
   host: 'localhost',
   port: '8111',
   user: 'root',
@@ -16,7 +16,7 @@ var connection = mysql.createConnection({
   multipleStatements: true
 });
 
-connection.connect();
+connection.connect(); */
 
 
 
@@ -24,24 +24,24 @@ connection.connect();
 
 app.get("/", (req, res) => {
   
-  let cart=[]
+/*   let cart=[]
   if(req.session.cart){
     cart=req.session.cart
   }
-  connection.query('SELECT * FROM products; SELECT * FROM categories', function (error, results, fields) {
+  connection.query('SELECT * FROM products; SELECT * FROM categories', function (error, results, fields) { */
     res.status(200).json({
-      products: results[0],
-      categories: results[1],
+      products: "orhan",
+      categories: "orhan",
       cart:{
-        items:cart,
-        totalPrice:0.0
+        items:"orhan",
+        totalPrice:"orhan"
       }
     })
-
-  });
+/* 
+  }); */
 })
 
-app.post("/add-to-cart", (req, res) => {
+/* app.post("/add-to-cart", (req, res) => {
   let product = req.body.product
 
   let cart = []
@@ -79,7 +79,7 @@ app.post("/add-to-cart", (req, res) => {
       totalPrice:0.0
     }
   })
-})
+}) */
 
 
 

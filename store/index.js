@@ -1,4 +1,4 @@
-/* import Vuex from "vuex"
+import Vuex from "vuex"
 
 
 const createStore =()=>{
@@ -88,4 +88,4 @@ const createStore =()=>{
     })
 }
 
-export default createStore */
+export default createStore
